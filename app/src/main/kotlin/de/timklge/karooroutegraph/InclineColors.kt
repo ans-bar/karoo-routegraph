@@ -9,8 +9,8 @@ fun getInclineIndicator(percent: Float): Int? {
         in -Float.MAX_VALUE..<-8f -> R.drawable.chevrondown2 // Dark blue
         in -8f..<-5f -> R.drawable.chevrondown1 // Light blue
         in -5f..<-2f -> R.drawable.chevrondown0 // White
-        in 1f..<2f -> R.drawable.chevron1 // Light green
-        in 2f..<5f -> R.drawable.chevron0 // Dark green
+        in -2f..<3f -> R.drawable.chevron1 // Light green
+        in 3f..<5f -> R.drawable.chevron0 // Dark green
         in 5f..<8f -> R.drawable.chevron2 // Yellow
         in 8f..<11f -> R.drawable.chevron3 // Light Orange
         in 11f..<14f -> R.drawable.chevron4 // Dark Orange
@@ -23,11 +23,11 @@ fun getInclineIndicator(percent: Float): Int? {
 @ColorRes
 fun getInclineIndicatorColor(percent: Float): Int? {
     return when(percent) {
-        in -Float.MAX_VALUE..<-10f -> R.color.eleDarkBlue // Dark blue
-        in -10f..<-5f -> R.color.eleLightBlue // Light blue
+        in -Float.MAX_VALUE..<-8f -> R.color.eleDarkBlue // Dark blue
+        in -8f..<-5f -> R.color.eleLightBlue // Light blue
         in -5f..<-2f -> R.color.eleWhite // White
-        in -2f..<2f -> R.color.eleLightGreen // Light green
-        in 2f..<5f -> R.color.eleDarkGreen // Dark green
+        in -2f..<3f -> R.color.eleLightGreen // Light green
+        in 3f..<5f -> R.color.eleDarkGreen // Dark green
         in 5f..<8f -> R.color.eleYellow // Yellow
         in 8f..<11f -> R.color.eleLightOrange // Light Orange
         in 11f..<14f -> R.color.eleDarkOrange // Dark Orange
