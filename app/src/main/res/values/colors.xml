@@ -16,16 +16,16 @@
     <color name="elevBg">#40000000</color>
     <color name="elevDarkBg">#40ffffff</color>
 
-    <color name="eleDarkGreen">#27958f</color>
-    <color name="eleLightGreen">#359d73</color>
-    <color name="eleYellow">#93ae55</color>
-    <color name="eleLightOrange">#f0be39</color>
-    <color name="eleDarkOrange">#ea8553</color>
-    <color name="eleRed">#e54a50</color>
-    <color name="elePurple">#aa3653</color>
-    <color name="eleWhite">#1887ab</color>
-    <color name="eleLightBlue">#4f73a1</color>
-    <color name="eleDarkBlue">#704776</color>
+    <color name="eleDarkGreen">#15A2A2</color>
+    <color name="eleLightGreen">#6FB1A0</color>
+    <color name="eleYellow">#FEA802</color>
+    <color name="eleLightOrange">#FE7434</color>
+    <color name="eleDarkOrange">#EA515F</color>
+    <color name="eleRed">#D94A8C</color>
+    <color name="elePurple">#B4418E</color>
+    <color name="eleWhite">#1184A7</color>
+    <color name="eleLightBlue">#046DC8</color>
+    <color name="eleDarkBlue">#0450B4</color>
 </resources>
 
 <!-- https://coolors.co/palette/0450b4-046dc8-1184a7-15a2a2-6fb1a0-b4418e-d94a8c-ea515f-fe7434-fea802 -->
