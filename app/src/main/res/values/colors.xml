@@ -20,9 +20,9 @@
     <color name="eleLightGreen">#6FB1A0</color>
     <color name="eleYellow">#FEA802</color>
     <color name="eleLightOrange">#FE7434</color>
-    <color name="eleDarkOrange">#E33B4A</color>
-    <color name="eleRed">#B0316C</color>
-    <color name="elePurple">#8F005E</color>
+    <color name="eleDarkOrange">#ea515f</color>
+    <color name="eleRed">#d94a8c</color>
+    <color name="elePurple">#b4418e</color>
     <color name="eleWhite">#1184A7</color>
     <color name="eleLightBlue">#046DC8</color>
     <color name="eleDarkBlue">#0450b4</color>
