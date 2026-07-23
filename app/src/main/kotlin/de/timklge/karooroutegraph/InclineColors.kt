@@ -24,9 +24,9 @@ fun getInclineIndicator(percent: Float): Int? {
 fun getInclineIndicatorColor(percent: Float): Int? {
     return when(percent) {
         in -Float.MAX_VALUE..<-8f -> R.color.eleDarkBlue // Dark blue
-        in -8f..<-5f -> R.color.eleLightBlue // Light blue
-        in -5f..<-2f -> R.color.eleWhite // White
-        in -1f..<2f -> R.color.eleLightGreen // Light green
+        in -8f..<-6f -> R.color.eleLightBlue // Light blue
+        in -6f..<-2f -> R.color.eleWhite // White
+        in -2f..<2f -> R.color.eleLightGreen // Light green
         in 2f..<5f -> R.color.eleDarkGreen // Dark green
         in 5f..<8f -> R.color.eleYellow // Yellow
         in 8f..<11f -> R.color.eleLightOrange // Light Orange
